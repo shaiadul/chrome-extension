@@ -1,0 +1,75 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #78bee13d;
+  color: #333;
+  width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  background: rgb(128, 193, 197);
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #1876f2c9; /* Facebook blue */
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+  border-radius: 5px;
+}
+
+input[type="text"]:focus {
+  border-color: #1876f275; /* Focus color */
+  outline: none;
+  box-shadow: 0 0 5px rgba(24, 119, 242, 0.5);
+}
+
+button {
+  background-color: #1876f2c9; /* Facebook blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #1876f2d8; /* Darker blue on hover */
+}
+
+.instructions {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #666;
+}

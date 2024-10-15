@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Facebook Comment Automation",
+  "version": "1.0",
+  "description": "Automate commenting on Facebook posts.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.facebook.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
