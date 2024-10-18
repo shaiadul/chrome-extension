@@ -1,1 +1,1 @@
-Google chrome extension
+Basic Google chrome extension
